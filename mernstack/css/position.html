@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            margin:10px;
+        }
+        /* div{
+            border: 2px solid black;
+            height: 5000px;
+            background-color: magenta;
+        } */
+        .image4{
+            /* position: relative;
+            top:100px; */
+            /* position: absolute;
+            top: 200px; */
+            /* position: fixed; */
+            /* fixed tag helps to fix the element in a particular position and it will not move even if we scroll the page.The fixed element stays at that fixed position even after crossing the dimentions of the parent container. */
+            /* top: 300px; */
+            position: fixed;
+        }
+        /* .image3{
+            position: sticky;
+            top:200px;
+            /* sticky tag ia similar to fixed tag but it needs a particualr location to stick the element.The element stays at that fixed position only upto the end of dimentions of the parent container. */
+        /* } */
+        /* .Box{
+            height: 5000px;
+            background-color: darkseagreen;
+        } */
+         /* .parent{
+            width:100vw;
+            height:50px;
+        background-color: rgb(41, 205, 246);       }
+        .child{
+            width:50%;
+           height:50%;
+            background-color: red;
+        } */
+         .parent{
+           font-size: 1px;
+           padding:1px;
+         }
+         .child{
+            font-size: 10em;
+            padding:10em;
+         }
+
+        
+    </style>
+</head>
+<body>
+    <div class="viratkohli">
+    <img src="image1.jpg" alt="image 1"
+    width="200px"
+    height="200px"
+    class="image1">
+    <img src="image2.webp" alt="image 2"
+    width="200px"
+    height="200px"
+    class="image2">
+    <img src="image3.jpg" alt="image 3"
+    width="200px"
+    height="200px"
+    class="image3">
+    <img src="image4.jpg" alt="image 4"
+    width="200px"
+    height="200px"
+    class="image4">
+    </div>
+    <div class="Box">
+      
+    </div>
+    <div class="parent">
+           Hello
+          <div class="child"> hello</div>
+
+        </div>
+  
+</body>
+</html>
