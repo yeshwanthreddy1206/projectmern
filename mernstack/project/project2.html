@@ -3,259 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RCB</title>
-    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEzXk-Es5uSaQxsJbB5PnWfS_3mGLJLpHO-g&s" type="image/x-icon">
+    <title>Document</title>
     <style>
-        h1{
-            background-color: red;
-            border: black solid 2px;
-            border-radius: 5px;
+        .container{
             width: 100vw;
-            display:flex;
+            height:100vh;
+            background-color: rgb(188, 217, 242);
+            display: flex;
             justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
         }
-       h2{
-            background-color: red;
-            border: black solid 2px;
-            border-radius: 5px;
-            width: 300px;
-            overflow:auto;
-
-        }
-        #firstpara{
-            border: black solid 2px;
-            border-radius: 5px;
-            padding: 10px;
-        }
-        /* #table1{
-            border: black solid 2px;
-            border-radius: 5px;
-        } */
-        #trophy{
-            float:right;
-            height:300px;
-            width:500px;
-            margin-right: 50px;
-            margin-bottom: 20px;
+        *{
+            margin: 0;
+            padding: 0;
         }
         .box{
-            border: 1px solid black;
-            overflow:scroll;
-            width:300px;
-            height:300px;
+            width: 300px;
+            height: 550px;
+            background-color: white;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 30px;
+           
         }
-        .container{
-            display:flex;
-            flex-direction:row;}
-         .box{
-            padding:5px;
-            margin:5px;
-            display:flex;
-         }   
-         @media (max-width:1090px){
-            .container{
-                flex-direction:column;
-            }
-         }
-         #box1{
-            display:flex;
-         }
-         #box3{
-            padding-left:10px; 
-            margin-left: 10px;
-         }
-         /* @media (max-width:1090px){
-            #box1{
-            justify-content:center;
-         }
-        } */
-        
-            
-
-        
+        .box img{
+            width: 90%;
+            border-radius: 20px;
+        }
+        .box h2{
+            font-size: 20px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-<section>
-     <header><h1>Welcome to Royal Challengers Bengaluru</h1></header>
-<!--     
-     <img id="trophy" src="image.jpg" alt="">
-     <br>
-     <br>
-
-     <table>
-         <tr>
-            <td> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEzXk-Es5uSaQxsJbB5PnWfS_3mGLJLpHO-g&s"></td>
-            <td>
-                <nav>
-                    <ul>
-                        <li> <a href="#RCBthemesongssection">RCB Theme songs</a></li>
-                        <li> <a href="#RCBinsidersection">RCB Insider IPL2025</a></li>
-                        <li> <a href="#RCBpodcastsection">RCB Podcast</a></li>
-                        <li> <a href="#RCBwplsection">RCB Insider wpl 2024-2025</a></li>
-                        <li> <a href="#RCBauctionsection">IPL 2025 Auction plan</a></li>
-                        <li> <a href="#bolddiariessection"> RCB Bold Diaries: IPL 2025</a></li>
-                    </ul>
-
-                </nav>
-            </td>
-         </tr>
-       
-    </table>
-    <br> -->
- <div class="container">
-        <div class="Box" id="box1">
-            <img id="trophy" src="image.jpg" alt="">
+    <div class="container">
+        <div class="box">
+            <img src="qr.jpg" alt="">
+            <h2>Improve your front-end skills by developing projects</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error magni dolores ducimus. Quo ut quos at impedit quis amet voluptatem doloremque quidem ullam aspernatur cupiditate nisi obcaecati veritatis molestiae architecto dolorum illum reprehenderit</p>
         </div>
-        <div class="Box" id="box2">
-            <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEzXk-Es5uSaQxsJbB5PnWfS_3mGLJLpHO-g&s">
-        </div>
-        <div class="Box" id="box3">
-               <nav>
-                    <ul>
-                        <li> <a href="#RCBthemesongssection">RCB Theme songs</a></li>
-                        <li> <a href="#RCBinsidersection">RCB Insider IPL2025</a></li>
-                        <li> <a href="#RCBpodcastsection">RCB Podcast</a></li>
-                        <li> <a href="#RCBwplsection">RCB Insider wpl 2024-2025</a></li>
-                        <li> <a href="#RCBauctionsection">IPL 2025 Auction plan</a></li>
-                        <li> <a href="#bolddiariessection"> RCB Bold Diaries: IPL 2025</a></li>
-                    </ul>
-
-                </nav>
-              <!-- <img id="trophy" src="image.jpg" alt=""> -->
-        </div>
- </div>
-
-</section>
-<section>
-    <h2 id="header2">About RCB</h2>
-    <p id="firstpara">Royal Challengers Bangalore (RCB) is one of the most popular franchises in the Indian Premier League, known for its passionate fan base and star-studded history. Founded in 2008, the team represents Bengaluru and is celebrated for its aggressive, entertaining brand of cricket. Over the years, RCB has featured iconic players like Virat Kohli, AB de Villiers, and Chris Gayle, who helped define its fearless identity. Although the team has reached multiple finals, the IPL trophy has remained elusive, adding to its dramatic narrative. RCB’s loyalty, energy, and never-give-up spirit make it one of the league’s most beloved teams. 🔴🏏</p>
-</section>
-<section>
-       <h2>Additional Media</h2>
-    <br>
-   <!-- <table>
-    <tr>
-        <td> 
-             <audio src="RCBtheme.mp3" controls></audio>
-        </td>
-        <td>
-            <video src="video.mp4" controls height="300px" width="300px"></video>
-        </td>
-    </tr>
-   </table>   -->
-   <div>
-    <div class="box">
-        <audio src="RCBtheme.mp3" controls></audio>
-          <video src="video.mp4" controls height="300px" width="300px"></video>
-          <img id="trophyimg" src="RCBtrophy.jpg" controls height="300px" width="300px" >
-           <img id="trophyimg2" src="viratwithtrophy.jpeg" height="300px" width="300px" >
-            <img id="trophyimg3" src="smritiwithtrophy.jpg" height="300px" width="300px" >
-            <img id="RCB" src="image.jpg" alt="" width="300px" height="300px">
-            <img id="RCBw" src="RCBw.webp" alt="" width="300px" height="300px">
-                        <img id="RCBw2" src="RCBw2.webp" alt="" width="300px" height="300px">
-
-
-
 
     </div>
-   </div>
-</section>
-
-<section id="RCBthemesongssection">
-      <h2>RCB Theme songs</h2>
-      <table id="table1">
-        <tr>
-            <td><iframe src="https://youtube.com/embed/l49-rih_M2cautoplay=1" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/XOB90njrzn8" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/bHOE5_lBHck" height="150" width="300"></iframe> </td>
-        </tr>
-        <tr>
-            <td> <iframe src="https://youtube.com/embed/9TUPVMWhpvk" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/WOZSI2_m-3o" height="150" width="300"></iframe></td>
-            <!-- <td> <iframe src="https://youtube.com/embed/" height="150" width="300"></iframe></td> -->
-        </tr>
-      </table>
-</section>   
-<section id="RCBinsidersection">
-      <h2>RCB Insider 2025</h2>
-      <table>
-        <tr>
-            <td><iframe src="https://youtube.com/embed/D2-CcZdZs4Q" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/tHS0OTzfC40" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/QNWYMKL0Xgs" height="150" width="300"></iframe> </td>
-        </tr>
-        <tr>
-            <td> <iframe src="https://youtube.com/embed/8Qg5u9ex8g0" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/t6ebQpHMVWs" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/OIYJ43KZhg0" height="150" width="300"></iframe></td>
-        </tr>
-      </table>
-</section>
-<section id="RCBpodcastsection">
-      <h2>RCB Podcast</h2>
-      <table>
-        <tr>
-            <td><iframe src="https://youtube.com/embed/JEzB37X-dqU" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/XCZQVGVrOJE" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/lJ5knqLr6OI" height="150" width="300"></iframe> </td>
-        </tr>
-        <tr>
-            <td> <iframe src="https://youtube.com/embed/kqPM2zDcCW0" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/G7iSIvjB6n0" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/jNQAZ-Tl9wY" height="150" width="300"></iframe></td>
-        </tr>
-      </table>
-</section>
-<section id="RCBwplsection">
-      <h2>RCB Insider wpl2024-25</h2>
-      <table>
-        <tr>
-            <td><iframe src="https://youtube.com/embed/xtMe0VfSqLQ" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/y9NQ3qeT3zg" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/7s589WBxcT4" height="150" width="300"></iframe> </td>
-        </tr>
-        <tr>
-            <td> <iframe src="https://youtube.com/embed/ZPSf0oqn3u0" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/qzyjcP71TqA" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/BHsWnnfrGuU" height="150" width="300"></iframe></td>
-        </tr>
-      </table>
-</section>
-<section id="RCBauctionsection">
-      <h2>IPL 2025 Auction Planning</h2>
-      <table>
-        <tr>
-            <td><iframe src="https://youtube.com/embed/sp_1FyLQ_TE" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/0dxCJ-YklWY" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/QKXmEoh9y5s" height="150" width="300"></iframe> </td>
-        </tr>
-        <tr>
-            <td> <iframe src="https://youtube.com/embed/3C_TWdZbU-c" height="150" width="300"></iframe></td>
-            <!-- <td> <iframe src="https://youtube.com/embed/" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/" height="150" width="300"></iframe></td> -->
-        </tr>
-      </table>
-</section>
-<section id="bolddiariessection">
-      <h2>RCB Bold Diaries: IPL 2025</h2>
-      <table>
-        <tr>
-            <td><iframe src="https://youtube.com/embed/ku4jNAJPt54" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/SGojbQNxhEg" height="150" width="300"></iframe></td>
-            <td><iframe src="https://youtube.com/embed/QfcOsMpzHaI" height="150" width="300"></iframe> </td>
-        </tr>
-        <tr>
-            <td> <iframe src="https://youtube.com/embed/jnlpyUHRq4I" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/d1EBYOCPjfY" height="150" width="300"></iframe></td>
-            <td> <iframe src="https://youtube.com/embed/vJj8t45Lthg" height="150" width="300"></iframe></td>
-        </tr>
-      </table>
-</section>
-
-
-
-
-   
 </body>
 </html>

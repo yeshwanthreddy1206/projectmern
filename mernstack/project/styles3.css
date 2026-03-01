@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width:100vw;
+    overflow-x: hidden;
+    background-color:#FAFAF2;
+}
+.navContainer{
+    width:100vw;
+    height:60px;
+background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+nav{
+    width: 100vw;
+    overflow-x: hidden;
+}
+#navList{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+    margin-right: 20px;
+    padding:20px;
+    align-items: center;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+#brand{
+    /* font-size: 30px; */
+    color: black;
+}
+#navLinks{
+    display: flex;
+    gap: 20px;
+}
+.footerBox{
+    width:100vw;
+    height:20px;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+
+}
+.contentBox{
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    gap: 100px;
+    list-style-position: inside;
+    box-shadow: 0px 0px 50px black;
+}
+.leftBox{
+    margin-left: 10px;
+}
+.rightBox{
+    position: relative;
+    /* overflow: hidden; */
+    align-self: flex-start;
+    transition: all 0.3s linear;
+    height: auto;
+    margin-top: 30px;
+}
+.rightBox img{
+    height: 500px;
+    width: 300px;
+    border-radius: 20px; 
+    
+
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+.rightBox .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(114, 114, 114, 0.5);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.3s linear ;
+}
+.rightBox:hover .overlay{
+    opacity: 1;
+}
+.rightBox .overlay span{
+    color: white;
+    font-size: 20px;
+}
+.rightBox:hover{
+    transform: scale(1.1);
+}
